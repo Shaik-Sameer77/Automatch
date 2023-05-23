@@ -1,24 +1,12 @@
 import './App.css';
-import logo from './logo.svg';
+import StateSearch from './components/StateSearch';
+
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button>Get started...</button>
-        </a>
-      </header>
+      <StateSearch/>
     </div>
   );
 }
